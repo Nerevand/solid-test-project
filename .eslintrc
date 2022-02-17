@@ -1,0 +1,19 @@
+{
+  "extends": ["react-app"],
+  "plugins": ["redux-saga"],
+  "rules": {
+    "import/no-anonymous-default-export": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "semi": [2, "never"],
+    "no-nested-ternary": ["error"],
+    "no-var": ["error"],
+    "prefer-const": ["error"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  }
+}
